@@ -1,0 +1,13 @@
+---
+layout: splash
+author_profile: true
+---
+
+# About the Team
+
+## Members
+
+{% for team_member in site.team_members %}
+  <h2>{{ team_member.name }}</h2>
+  <p>{{ team_member.content | markdownify }}</p>
+{% endfor %}
