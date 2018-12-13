@@ -1,13 +1,41 @@
 ---
+title: "Arizona Airspeed"
 layout: splash
-author_profile: true
+header:
+  overlay_image: /assets/images/test-splash3.jpg
+  # overlay_image: /assets/images/DSC04426.jpg
+  #overlay_image: /assets/images/logo-large.png
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  #overlay_filter: "0.5"
+  actions:
+    - label: See us in Action
+      url: "https://www.facebook.com/ArizonaAirspeed/videos/302329460363428/"
+    - label: "Follow us on Facebook"
+      url: "https://facebook.com/ArizonaAirspeed"
+    - label: "Follow us on Instagram"
+      url: "https://instagram.com/arizonaairspeed"
+#    - label: "Book Coaching"
+#      url: "https://TODO"
+# excerpt: "A professional skydiving team based at Skydive Arizona."
+excerpt: "We're a professional skydiving team based at [Skydive Arizona](https://www.skydiveaz.com). Our 25 year legacy includes 7 World Championships in 4-way and 8-way Formation Skydiving. Join us on our journey to Worlds 2020!"
+
+intro:
+  - excerpt: 'We are a professional formation skydiving team based at [Skydive Arizona](https://www.skydiveaz.com). The team has earned 7 World Championsihps in 4-way and 8-way Formation Skydiving since its inception in 1994. Join us on our journey to Worlds 2020!'
+
+
+links:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    url: "https://www.facebook.com/ArizonaAirspeed/videos/302329460363428/"
+    btn_label: "See us in action"
+    btn_class: "btn--primary btn--large"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    url: "https://facebook.com/ArizonaAirspeed"
+    btn_label: "Follow us on Facebook"
+    btn_class: "btn--primary btn--large"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    url: "https://instagram.com/arizonaairspeed"
+    btn_label: "Follow us on Intagram"
+    btn_class: "btn--primary btn--large"
+# {% include feature_row id="links" %}
 ---
-
-# About the Team
-
-## Members
-
-{% for team_member in site.team_members %}
-  <h2>{{ team_member.name }}</h2>
-  <p>{{ team_member.content | markdownify }}</p>
-{% endfor %}
